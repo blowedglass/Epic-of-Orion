@@ -1,0 +1,2069 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.38f1 (8f5fde82e2dc) revision 9396190'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 16309 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.38f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/theno/Desktop/TownDefender
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64031
+Successfully changed project path to: C:/Users/theno/Desktop/TownDefender
+C:/Users/theno/Desktop/TownDefender
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 91.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.38f1 (8f5fde82e2dc)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/theno/Desktop/TownDefender/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   
+    VRAM:     8088 MB
+    Driver:   30.0.15.1215
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56980
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003538 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 102.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.920 seconds
+Domain Reload Profiling:
+	ReloadAssembly (920ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (695ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (226ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (284ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (103ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (121ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006513 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 110.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.876 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1878ms)
+		BeginReloadAssembly (258ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (1506ms)
+			LoadAssemblies (176ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (474ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (652ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (111ms)
+				BeforeProcessingInitializeOnLoad (131ms)
+				ProcessInitializeOnLoadAttributes (369ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.8 MB.
+System memory in use after: 159.0 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3649.
+Total: 5.374800 ms (FindLiveObjects: 0.420200 ms CreateObjectMapping: 0.097800 ms MarkObjects: 4.658700 ms  DeleteObjects: 0.196500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(c254740abb7fa894e908ebbedadba462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(c254740abb7fa894e908ebbedadba462) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Pine01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Pine01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Larch01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Larch01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: '9232fa8efb3150b939f3ce292ef6c6d7') in 0.166502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.799451 seconds.
+  path: Assets/Shaders/CastleStone.shadergraph
+  artifactKey: Guid(312e2ef779fa80945a5b19752c8d2fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/CastleStone.shadergraph using Guid(312e2ef779fa80945a5b19752c8d2fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0cb5c49223012ce0c29b20bd251947') in 0.010993 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011424 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 15.649 seconds
+Domain Reload Profiling:
+	ReloadAssembly (15651ms)
+		BeginReloadAssembly (1057ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (80ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (187ms)
+		EndReloadAssembly (14306ms)
+			LoadAssemblies (560ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1750ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (359ms)
+			SetupLoadedEditorAssemblies (10269ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (628ms)
+				ProcessInitializeOnLoadAttributes (8973ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (562ms)
+				EditorAssembliesLoaded (3ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (538ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3073 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.2 MB.
+System memory in use after: 152.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3662.
+Total: 5.625700 ms (FindLiveObjects: 0.372500 ms CreateObjectMapping: 0.096400 ms MarkObjects: 5.118100 ms  DeleteObjects: 0.037100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 338.568531 seconds.
+  path: Assets/Textures/rawrnormal.png
+  artifactKey: Guid(39ffc45e4bd1e7a4dbd6d4da4cb8b3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/rawrnormal.png using Guid(39ffc45e4bd1e7a4dbd6d4da4cb8b3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06030ab78f20bb4c7a309cf2dc31136a') in 0.080397 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007769 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.720 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1721ms)
+		BeginReloadAssembly (224ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (1375ms)
+			LoadAssemblies (187ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (467ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (530ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (107ms)
+				ProcessInitializeOnLoadAttributes (374ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3067 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.7 MB.
+System memory in use after: 151.9 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3665.
+Total: 5.959100 ms (FindLiveObjects: 0.461800 ms CreateObjectMapping: 0.134700 ms MarkObjects: 5.324900 ms  DeleteObjects: 0.035500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1583.101364 seconds.
+  path: Assets/Materials/CastleStone.mat
+  artifactKey: Guid(9a419ee8ae371624986c4ec8665780fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/CastleStone.mat using Guid(9a419ee8ae371624986c4ec8665780fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b517ce78ee1b46771381104f3bcb7f1') in 0.311584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.727049 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Unique_Buildings/Materials/Roof_2.mat
+  artifactKey: Guid(d2ff012a3605d7b43a63b985f28c0e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Unique_Buildings/Materials/Roof_2.mat using Guid(d2ff012a3605d7b43a63b985f28c0e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84c2eb1b42cd2c6cb05e7517ed25f227') in 0.037771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Unique_Buildings/Materials/Roof_3.mat
+  artifactKey: Guid(47944b8739ba57145be71397da04b617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Unique_Buildings/Materials/Roof_3.mat using Guid(47944b8739ba57145be71397da04b617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88bb20977713081027f10453daaf82bd') in 0.027533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Unique_Buildings/Materials/Rope_0.mat
+  artifactKey: Guid(263206c895619cc46b511ee92946efe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Unique_Buildings/Materials/Rope_0.mat using Guid(263206c895619cc46b511ee92946efe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eb332306b5b5a0285aae4e3d83c5e58') in 0.020531 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006645 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.668 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1669ms)
+		BeginReloadAssembly (225ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1337ms)
+			LoadAssemblies (169ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (441ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (495ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (349ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3067 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 157.2 MB.
+System memory in use after: 157.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3746.
+Total: 6.667100 ms (FindLiveObjects: 0.522200 ms CreateObjectMapping: 0.143300 ms MarkObjects: 5.962500 ms  DeleteObjects: 0.037400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006528 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.748 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1749ms)
+		BeginReloadAssembly (204ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1437ms)
+			LoadAssemblies (180ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (545ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (487ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (357ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3067 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 157.2 MB.
+System memory in use after: 157.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3749.
+Total: 6.130200 ms (FindLiveObjects: 0.372200 ms CreateObjectMapping: 0.328500 ms MarkObjects: 5.396700 ms  DeleteObjects: 0.031300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1564.552393 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard
+  artifactKey: Guid(b56fc1bf71e5b3649981f421100bc3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard using Guid(b56fc1bf71e5b3649981f421100bc3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f9f5d0a8a8d6c627ffce6724cc5602') in 0.014674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.796534 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Models/Colonial Graveyard.fbx
+  artifactKey: Guid(e8c873cdd272e8e4fa871bd1c355f954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Models/Colonial Graveyard.fbx using Guid(e8c873cdd272e8e4fa871bd1c355f954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc8de627553601920dea1e7b03f21414') in 0.711981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Models/Grave.fbx
+  artifactKey: Guid(c6d8cabc6d1949045b7cdc1c6207355a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Models/Grave.fbx using Guid(c6d8cabc6d1949045b7cdc1c6207355a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad80ca4ebfcdfac5e0bdba54e21d8a46') in 0.036365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Models/Grave1.fbx
+  artifactKey: Guid(8a7a923da7d54c344982d2664367f896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Models/Grave1.fbx using Guid(8a7a923da7d54c344982d2664367f896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '303bc0db0385fb9d2e34b26cec413491') in 0.034617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Models/Grave3.fbx
+  artifactKey: Guid(b3d31729400913e4495d03d0a7bf4b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Models/Grave3.fbx using Guid(b3d31729400913e4495d03d0a7bf4b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d6b79cbb52afbf183910a7bf71ee1a5') in 0.032074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Models/Grave11.fbx
+  artifactKey: Guid(48c347e63a7efab49951f6430a588b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Models/Grave11.fbx using Guid(48c347e63a7efab49951f6430a588b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8776b053c7d7528f9680373b5314716') in 0.032048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Models/Grave7.fbx
+  artifactKey: Guid(4aa6d84392dc6bb4197a6e361896bcae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Models/Grave7.fbx using Guid(4aa6d84392dc6bb4197a6e361896bcae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f2a1ca16b79a70b9ca1460c77865a89') in 0.035402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Models/Grave9.fbx
+  artifactKey: Guid(c81d2824c9570f94b98dcaaddbe03bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Models/Grave9.fbx using Guid(c81d2824c9570f94b98dcaaddbe03bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41973f738f64b2abaca8c42956e8742e') in 0.034637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Models/Grave14.fbx
+  artifactKey: Guid(9f3fe742701936d4e9c17764f5a25665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Models/Grave14.fbx using Guid(9f3fe742701936d4e9c17764f5a25665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf4794da2d2bb61b9a6df38fdef9751') in 0.036842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Models/Grave4.fbx
+  artifactKey: Guid(5d9ddc5cb1f883f47ae0a0d56e2b589b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Models/Grave4.fbx using Guid(5d9ddc5cb1f883f47ae0a0d56e2b589b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98560a5bba5b1901f98674079a7ea64f') in 0.037408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Models/Grave5.fbx
+  artifactKey: Guid(8c8ac2202a2c3cf43b24e7510d91a3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Models/Grave5.fbx using Guid(8c8ac2202a2c3cf43b24e7510d91a3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a84f951ccc5886a5dba96ff686c975') in 0.030971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Models/Grave10.fbx
+  artifactKey: Guid(3d289c22c405ea8429b5210790cc14fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Models/Grave10.fbx using Guid(3d289c22c405ea8429b5210790cc14fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b90e0e5c775942f02bfd992c7f247d') in 0.030013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Models/Grave8.fbx
+  artifactKey: Guid(64af0ea472210904e861c04f97038c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Models/Grave8.fbx using Guid(64af0ea472210904e861c04f97038c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bcdd38f6ec7212eb268a29c59d16a9a') in 0.034300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Models/Grave13.fbx
+  artifactKey: Guid(c772d380b2d4873408ee5a444962f185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Models/Grave13.fbx using Guid(c772d380b2d4873408ee5a444962f185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a61f3bd8229d264cbde2681cb9115ac4') in 0.035516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Models/Grave6.fbx
+  artifactKey: Guid(b39af372f4071644783df8f65090cff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Models/Grave6.fbx using Guid(b39af372f4071644783df8f65090cff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbc8896e808a27c62fbfd300ec9cf4a3') in 0.032669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000447 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Models/Grave12.fbx
+  artifactKey: Guid(742160d4029cfaf4586ae247e479bfe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Models/Grave12.fbx using Guid(742160d4029cfaf4586ae247e479bfe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a234359aeb25c90d20057bb0502e91f') in 0.035894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.934746 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Materials/Graveyard
+  artifactKey: Guid(225b3ef1262fb2c42a1aa6d8c84e673f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Materials/Graveyard using Guid(225b3ef1262fb2c42a1aa6d8c84e673f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff2676bf8c2d70a47e0eeaed5a3ac381') in 0.011082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.057847 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Materials/Graveyard/Church_Back.mat
+  artifactKey: Guid(7c3d0491891423f4b81babfacbd6305f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Materials/Graveyard/Church_Back.mat using Guid(7c3d0491891423f4b81babfacbd6305f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06c60121c6bcea1738287c55ebf2d367') in 0.072114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Materials/Graveyard/Graveyard_Walls.mat
+  artifactKey: Guid(114cf8a829e58dd40afe2d0c0e0a758b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Materials/Graveyard/Graveyard_Walls.mat using Guid(114cf8a829e58dd40afe2d0c0e0a758b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fddbd18ca2fe1678bb683b6dcca6946') in 0.029566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Materials/Graveyard/Graveyard_Ground.mat
+  artifactKey: Guid(0d62c74ab0322784681e293ae89ea53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Materials/Graveyard/Graveyard_Ground.mat using Guid(0d62c74ab0322784681e293ae89ea53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ed80048f846369377b7def40424a82') in 0.028515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Materials/Graveyard/Church_From.mat
+  artifactKey: Guid(cf7fafc6cc17c0045abfa02be7425da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Materials/Graveyard/Church_From.mat using Guid(cf7fafc6cc17c0045abfa02be7425da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2cde8b8e452f840511281901e0a85f') in 0.028726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Materials/Graveyard/Graveyard_Sidewalk.mat
+  artifactKey: Guid(1e20882ab504010488cc22a392b2ef34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Materials/Graveyard/Graveyard_Sidewalk.mat using Guid(1e20882ab504010488cc22a392b2ef34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc02c24eb775ac156d1214b82e5e59a6') in 0.030173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Materials/Graveyard/Graves.mat
+  artifactKey: Guid(1e3fe5dcd512d8541a847d4fa1bb5560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Materials/Graveyard/Graves.mat using Guid(1e3fe5dcd512d8541a847d4fa1bb5560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f53f368edafe23c8cd3e90ed9e55344') in 0.031657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.705729 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard
+  artifactKey: Guid(b2eaf5009e831ae42bce75127d256bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard using Guid(b2eaf5009e831ae42bce75127d256bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc3fac65ef7a5df644d63f50c526751c') in 0.003518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.100840 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab
+  artifactKey: Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab using Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adecc04524e04bbdc50a84028ef05a5c') in 0.048601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave9.prefab
+  artifactKey: Guid(6e360a62acd35c9449183c1bd5504098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave9.prefab using Guid(6e360a62acd35c9449183c1bd5504098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd613dbed15498fd68983ad08aada5b5b') in 0.029292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave1.prefab
+  artifactKey: Guid(3410fe058b03f6544a51196feb5df00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave1.prefab using Guid(3410fe058b03f6544a51196feb5df00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b284b418ac60f0c4422a8cd3c9d4003f') in 0.028591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave10.prefab
+  artifactKey: Guid(eb0f0b6b32ad7d34fa85e9dcfa9f46e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave10.prefab using Guid(eb0f0b6b32ad7d34fa85e9dcfa9f46e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f778e628bc712562021c084e7f5be9fd') in 0.029465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave6.prefab
+  artifactKey: Guid(2afc9e68383e2b143b91f61d2333f251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave6.prefab using Guid(2afc9e68383e2b143b91f61d2333f251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3ddde3a52a284159ef0b178712c4c0') in 0.030054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave8.prefab
+  artifactKey: Guid(b85591a506aa1ca4f917a9609cc62f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave8.prefab using Guid(b85591a506aa1ca4f917a9609cc62f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6788d31d2234d4e149a11bf89af4b61') in 0.028821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave4.prefab
+  artifactKey: Guid(b59cbd86aca4971449bf09c19f408f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave4.prefab using Guid(b59cbd86aca4971449bf09c19f408f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790cea636a08e69c9f623b7a5a7d5f0c') in 0.028528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave5.prefab
+  artifactKey: Guid(9baa8ab1461320b46b3c8b4c0b0cfcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave5.prefab using Guid(9baa8ab1461320b46b3c8b4c0b0cfcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45e6dca4a9f1d3f0e45c949e49d0a769') in 0.027612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Graveyard_ground.prefab
+  artifactKey: Guid(69fc34dacc563124f9d53d366de4a6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Graveyard_ground.prefab using Guid(69fc34dacc563124f9d53d366de4a6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '950b05b4b413e652eff7af9f38609ee9') in 0.044018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave.prefab
+  artifactKey: Guid(861d87ac333a0e04e99afa0787681441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave.prefab using Guid(861d87ac333a0e04e99afa0787681441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff2bb0f52bb98f9ea22d847737876b0e') in 0.030565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Graveyard_wall.prefab
+  artifactKey: Guid(3da074a71c3410243bdd84d882fac08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Graveyard_wall.prefab using Guid(3da074a71c3410243bdd84d882fac08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a238039101b60ccdb30b7cf360df7425') in 0.033061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/street lamp1.prefab
+  artifactKey: Guid(e46fda38e509f1a47ac8ed430ec0acb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/street lamp1.prefab using Guid(e46fda38e509f1a47ac8ed430ec0acb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac72b0c202eed522d16c006ba426b3e4') in 0.033614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave12.prefab
+  artifactKey: Guid(2b3bbfb616deb9f4ebb0c278e6d18cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave12.prefab using Guid(2b3bbfb616deb9f4ebb0c278e6d18cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9e80ae458da41243e08b0e61050176') in 0.030305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave3.prefab
+  artifactKey: Guid(9f9bac2bf3030b0439706f487659e3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave3.prefab using Guid(9f9bac2bf3030b0439706f487659e3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f63487ea131661a29fa2ee767806203') in 0.029610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave11.prefab
+  artifactKey: Guid(8f3dc99490e1dbf4d9b2514dab0f7226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave11.prefab using Guid(8f3dc99490e1dbf4d9b2514dab0f7226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a521f8007d2876e4fb0b30e5b3f3bdc') in 0.027082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave7.prefab
+  artifactKey: Guid(eb6ec0f240ab7904a9a32d306650469b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave7.prefab using Guid(eb6ec0f240ab7904a9a32d306650469b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e305ec9139e14261551895ec94f43c68') in 0.030493 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005674 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.603 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1603ms)
+		BeginReloadAssembly (190ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1301ms)
+			LoadAssemblies (175ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (460ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (439ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (309ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3067 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 157.6 MB.
+System memory in use after: 157.8 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3791.
+Total: 4.659900 ms (FindLiveObjects: 0.330700 ms CreateObjectMapping: 0.105500 ms MarkObjects: 4.191400 ms  DeleteObjects: 0.031000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1211.529458 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Textures
+  artifactKey: Guid(0872623613d53a44c8861dcf9b404f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Textures using Guid(0872623613d53a44c8861dcf9b404f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c4fecfefc8ef738b53c2494b36e681') in 1.323066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000902 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_church_textures/Church_Church Back_AlbedoTransparency.png
+  artifactKey: Guid(4be777ca04fbf604abe2af7fcc6aef44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_church_textures/Church_Church Back_AlbedoTransparency.png using Guid(4be777ca04fbf604abe2af7fcc6aef44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cca6f98ee4b439a9be157d5e32231c5') in 2.384317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002407 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_church_textures/Church_Church Back_Normal.png
+  artifactKey: Guid(2337dc74c0348c0419874cd4a8752e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_church_textures/Church_Church Back_Normal.png using Guid(2337dc74c0348c0419874cd4a8752e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6293e00173ac5e4393ba42664b4aca4') in 4.267743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000497 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_church_textures/Church_Church From_AlbedoTransparency.png
+  artifactKey: Guid(56d09de34fa6de94abf236c6557250e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_church_textures/Church_Church From_AlbedoTransparency.png using Guid(56d09de34fa6de94abf236c6557250e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c465cca4b3a62951c2b829bfb74d3f65') in 0.780953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000518 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Scenes/Colonial_graveyard.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Scenes/Colonial_graveyard.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ace2b1f5ada1ccbe5d7f1ea692255d53') in 0.202425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000991 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_church_textures/Church_Church From_MetallicSmoothness.png
+  artifactKey: Guid(c323ca12ab1d83d43ad7aaa43ddb7c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_church_textures/Church_Church From_MetallicSmoothness.png using Guid(c323ca12ab1d83d43ad7aaa43ddb7c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d5ff7a85a9c35f08523950031844b71') in 0.447339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000651 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_church_textures/Ambient Occlusion Map from Mesh Church Back.png
+  artifactKey: Guid(566ed16a532b94648a10c94eb48dc822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_church_textures/Ambient Occlusion Map from Mesh Church Back.png using Guid(566ed16a532b94648a10c94eb48dc822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05447461ee43d8f62a4324938373d94') in 0.367368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005035 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_church_textures/Church_Church From_Normal.png
+  artifactKey: Guid(3ea3e41c4f1098a45bb9b9811499f8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_church_textures/Church_Church From_Normal.png using Guid(3ea3e41c4f1098a45bb9b9811499f8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad958b79ab88d7e716827ef01f138db') in 1.447215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004344 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_church_textures/Ambient Occlusion Map from Mesh Church From.png
+  artifactKey: Guid(8e1d53fd20461bf4a82849c00f585584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_church_textures/Ambient Occlusion Map from Mesh Church From.png using Guid(8e1d53fd20461bf4a82849c00f585584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c67bc98969bb8b207339bdc5095219b') in 0.287879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016058 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Scenes/Colonial_graveyardSettings.lighting
+  artifactKey: Guid(b08d3a5d71e03e34eacd1b508f8fd4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Scenes/Colonial_graveyardSettings.lighting using Guid(b08d3a5d71e03e34eacd1b508f8fd4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df26b9b95b7dd87398f1eebe74d6ea19') in 1.902365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000606 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_church_textures/Church_Church Back_MetallicSmoothness.png
+  artifactKey: Guid(27da4f5b321f5e64bae480922597ee23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_church_textures/Church_Church Back_MetallicSmoothness.png using Guid(27da4f5b321f5e64bae480922597ee23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64b9acfcd7dbecea19c46218eaa1da16') in 1.451940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001113 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_church_textures
+  artifactKey: Guid(34c337c6a6fc1fc4e84ab019d3c3ce96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_church_textures using Guid(34c337c6a6fc1fc4e84ab019d3c3ce96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf8b29478fc1f7f26c355a1c2f20b6ea') in 1.680800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.825304 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Scenes/GameObject.prefab
+  artifactKey: Guid(77581444c6fed9a43b90c820207c757a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Scenes/GameObject.prefab using Guid(77581444c6fed9a43b90c820207c757a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d22320b9aecc2909e2a36380c33d9a') in 0.311837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.441736 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3fd5e7ad579dbfbd04cbc2e6cd348fb') in 0.009107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.607051 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_grave_textures/Ambient Occlusion Map from Mesh Graves.png
+  artifactKey: Guid(7cf65f8be36ebce47a04a8aabf3e835d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_grave_textures/Ambient Occlusion Map from Mesh Graves.png using Guid(7cf65f8be36ebce47a04a8aabf3e835d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dec1b804be0479bddaa90671d7c3514') in 0.179636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012376 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_grave_textures/Graves_Graves_AlbedoTransparency.png
+  artifactKey: Guid(df727a8813ddf344e88e21870bd37d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_grave_textures/Graves_Graves_AlbedoTransparency.png using Guid(df727a8813ddf344e88e21870bd37d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2cd1a2c6c7430eeb991542e27071d97') in 0.118460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000668 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_grave_textures/Graves_Graves_MetallicSmoothness.png
+  artifactKey: Guid(6c93c1d253aaeef469df8d025c8305a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_grave_textures/Graves_Graves_MetallicSmoothness.png using Guid(6c93c1d253aaeef469df8d025c8305a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a3c9f4f1d9bd4e091f0ed76f6dd413') in 0.108403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010844 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_grave_textures/Graves_Graves_Normal.png
+  artifactKey: Guid(0a07d662e7ec175489b86952377193a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_grave_textures/Graves_Graves_Normal.png using Guid(0a07d662e7ec175489b86952377193a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0729dce96830d2e0cebe4e15e74a1e14') in 0.073848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.064832 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_terrain_textures/Ambient Occlusion Map from Mesh  sidewalk.png
+  artifactKey: Guid(f535afc12a67f444cbe12e621652fd17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_terrain_textures/Ambient Occlusion Map from Mesh  sidewalk.png using Guid(f535afc12a67f444cbe12e621652fd17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b719e8ccc07fe90219cefc8f31de1145') in 0.079320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005074 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_terrain_textures/Ground Graveyard_sidewalk_Interior_MetallicSmoothness.png
+  artifactKey: Guid(da7a26097e3f60a4f8db268db99eddc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_terrain_textures/Ground Graveyard_sidewalk_Interior_MetallicSmoothness.png using Guid(da7a26097e3f60a4f8db268db99eddc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96157259305feca453e9f2c82f01890a') in 0.063602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003633 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_terrain_textures/Ground Graveyard_Ground Graveyard_AlbedoTransparency.png
+  artifactKey: Guid(da9777b80f4bbfa47bd85d127be2490e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_terrain_textures/Ground Graveyard_Ground Graveyard_AlbedoTransparency.png using Guid(da9777b80f4bbfa47bd85d127be2490e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b284d9c78ac074ac3820ea02436c60') in 0.048400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_terrain_textures/Ambient Occlusion Map from Mesh Ground Graveyard.png
+  artifactKey: Guid(fa9b43282fedea640a4bb484ed4a2022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_terrain_textures/Ambient Occlusion Map from Mesh Ground Graveyard.png using Guid(fa9b43282fedea640a4bb484ed4a2022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d4e6337ce2c61c972f5ad737bd39873') in 0.260969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017537 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_terrain_textures/Ground Graveyard_Ground Graveyard_Normal.png
+  artifactKey: Guid(fbac2d590913ded498550889b626b8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_terrain_textures/Ground Graveyard_Ground Graveyard_Normal.png using Guid(fbac2d590913ded498550889b626b8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf26df50c29ff5011e5e149b21ba2a2') in 0.314048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001874 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_terrain_textures/Ground Graveyard_Ground Graveyard_MetallicSmoothness.png
+  artifactKey: Guid(6d2f4739981e3d648b50fa78ccce5a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_terrain_textures/Ground Graveyard_Ground Graveyard_MetallicSmoothness.png using Guid(6d2f4739981e3d648b50fa78ccce5a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be5592857262dcab9eee86d610a77609') in 0.144212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000653 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_wall_textures/Graveyard_Wall_Graveyard Wall_AlbedoTransparency.png
+  artifactKey: Guid(71cd2e1c986db3246bd0280a4adb9288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_wall_textures/Graveyard_Wall_Graveyard Wall_AlbedoTransparency.png using Guid(71cd2e1c986db3246bd0280a4adb9288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '347fdc32afe66b85104bc55f46426cf2') in 0.256899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_wall_textures/Graveyard_Wall_Graveyard Wall_MetallicSmoothness.png
+  artifactKey: Guid(da0169aab41ec2e4e89263c8212ae450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_wall_textures/Graveyard_Wall_Graveyard Wall_MetallicSmoothness.png using Guid(da0169aab41ec2e4e89263c8212ae450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec300ac786a1c68861c51fab6b5ee73') in 0.043716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000896 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_wall_textures/Graveyard_Wall_Graveyard Wall_Normal.png
+  artifactKey: Guid(ac6a3acadba25d1428157ebbcd42282f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_wall_textures/Graveyard_Wall_Graveyard Wall_Normal.png using Guid(ac6a3acadba25d1428157ebbcd42282f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb637f33b5bae0296ba2c42aa30adb8') in 0.124947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000781 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_wall_textures/Ambient Occlusion Map from Mesh Graveyard Wall.png
+  artifactKey: Guid(b8b4ac01a3f620b4ca22dfa6373234c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_wall_textures/Ambient Occlusion Map from Mesh Graveyard Wall.png using Guid(b8b4ac01a3f620b4ca22dfa6373234c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c3236cc380526bae2ce1deb60aa336') in 0.165813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000578 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_terrain_textures/Ground Graveyard_sidewalk_AlbedoTransparency.png
+  artifactKey: Guid(936ca66aad909a343afc79333e586a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_terrain_textures/Ground Graveyard_sidewalk_AlbedoTransparency.png using Guid(936ca66aad909a343afc79333e586a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '291f94b1a0cdfa49a86d2493a064ae70') in 0.120466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000620 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_terrain_textures/Ground Graveyard_sidewalk_Normal.png
+  artifactKey: Guid(2070ca3b7546b0d408cb30e591b5166d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Textures/Graveyard_terrain_textures/Ground Graveyard_sidewalk_Normal.png using Guid(2070ca3b7546b0d408cb30e591b5166d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10edca04cb8f45d54b86f66675d3868') in 0.162724 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020614 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 4.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.014 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4015ms)
+		BeginReloadAssembly (446ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (22ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (129ms)
+		EndReloadAssembly (3356ms)
+			LoadAssemblies (375ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1036ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (156ms)
+			SetupLoadedEditorAssemblies (1352ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (268ms)
+				ProcessInitializeOnLoadAttributes (975ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (40ms)
+				EditorAssembliesLoaded (3ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (36ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3067 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.5 MB.
+System memory in use after: 158.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3832.
+Total: 6.427900 ms (FindLiveObjects: 0.624700 ms CreateObjectMapping: 0.159400 ms MarkObjects: 5.592100 ms  DeleteObjects: 0.049500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009037 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.669 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1670ms)
+		BeginReloadAssembly (198ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (1370ms)
+			LoadAssemblies (160ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (403ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (570ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (421ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3067 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.5 MB.
+System memory in use after: 158.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3835.
+Total: 5.428500 ms (FindLiveObjects: 0.438100 ms CreateObjectMapping: 0.121300 ms MarkObjects: 4.832300 ms  DeleteObjects: 0.035000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008428 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.679 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1679ms)
+		BeginReloadAssembly (193ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (1375ms)
+			LoadAssemblies (172ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (437ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (506ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (350ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3067 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.5 MB.
+System memory in use after: 158.8 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3838.
+Total: 6.791900 ms (FindLiveObjects: 0.383900 ms CreateObjectMapping: 0.119600 ms MarkObjects: 6.248700 ms  DeleteObjects: 0.037600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006535 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.600 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1601ms)
+		BeginReloadAssembly (186ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (1314ms)
+			LoadAssemblies (157ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (441ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (484ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (339ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3067 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.5 MB.
+System memory in use after: 158.8 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3841.
+Total: 6.336100 ms (FindLiveObjects: 0.462500 ms CreateObjectMapping: 0.112400 ms MarkObjects: 5.713800 ms  DeleteObjects: 0.043600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007016 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.634 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1634ms)
+		BeginReloadAssembly (199ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1330ms)
+			LoadAssemblies (182ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (446ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (469ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (327ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3067 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.5 MB.
+System memory in use after: 158.8 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3844.
+Total: 5.444400 ms (FindLiveObjects: 0.354300 ms CreateObjectMapping: 0.094500 ms MarkObjects: 4.959900 ms  DeleteObjects: 0.034000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006323 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.688 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1688ms)
+		BeginReloadAssembly (218ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (1359ms)
+			LoadAssemblies (185ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (451ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (489ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (344ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3067 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.5 MB.
+System memory in use after: 158.8 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3847.
+Total: 5.807700 ms (FindLiveObjects: 0.516700 ms CreateObjectMapping: 0.131700 ms MarkObjects: 5.125100 ms  DeleteObjects: 0.032900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4065.673334 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Scene
+  artifactKey: Guid(bd36a8a9eb113fa499a7a0b42ff93bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Scene using Guid(bd36a8a9eb113fa499a7a0b42ff93bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5c0aaf5eb88310370407f13a5f13122') in 0.013583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.993443 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Scene/Desert_Village
+  artifactKey: Guid(8a7d0a9c6d2507e479e1e5d33df54ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Scene/Desert_Village using Guid(8a7d0a9c6d2507e479e1e5d33df54ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6728000dbc10e6fc31b4dbc3250194e6') in 0.009467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.038489 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Scene/Desert_Village/LightingData.asset
+  artifactKey: Guid(7b5016981fd1be440b02240609994e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Scene/Desert_Village/LightingData.asset using Guid(7b5016981fd1be440b02240609994e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '433408f542fd4764c9d85dfbc9d64308') in 0.023223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Scene/Desert_Village/Lightmap-3_comp_light.exr
+  artifactKey: Guid(19ded678075c534479671f66d3895074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Scene/Desert_Village/Lightmap-3_comp_light.exr using Guid(19ded678075c534479671f66d3895074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc683b951c573ae4e1a2f2b7ef250b3') in 0.060479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Scene/Desert_Village/Lightmap-4_comp_light.exr
+  artifactKey: Guid(4039b6f4b69055345b8b4e83c5242b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Scene/Desert_Village/Lightmap-4_comp_light.exr using Guid(4039b6f4b69055345b8b4e83c5242b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a698430a9809062cc47620bd7e469e6') in 0.018145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Scene/Desert_Village/ReflectionProbe-0.exr
+  artifactKey: Guid(a4531ac8b59ca534aa3df4928ef91f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Scene/Desert_Village/ReflectionProbe-0.exr using Guid(a4531ac8b59ca534aa3df4928ef91f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f19ad338a289e20423b840741f32fee') in 0.047525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Scene/Desert_Village/Lightmap-3_comp_dir.png
+  artifactKey: Guid(7750f4d858bcc784cb14deea4e6de3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Scene/Desert_Village/Lightmap-3_comp_dir.png using Guid(7750f4d858bcc784cb14deea4e6de3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b472115bb5334bcefce4ccc77a2ce3e') in 0.021619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Scene/Desert_Village/Lightmap-5_comp_dir.png
+  artifactKey: Guid(9cd6e68c326e45b458272fcb9696ae70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Scene/Desert_Village/Lightmap-5_comp_dir.png using Guid(9cd6e68c326e45b458272fcb9696ae70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d293900c5080404812663db78d8f33a') in 0.020310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Scene/Desert_Village/Lightmap-5_comp_light.exr
+  artifactKey: Guid(079c51f3a4f4640459b2268e6da1d639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Scene/Desert_Village/Lightmap-5_comp_light.exr using Guid(079c51f3a4f4640459b2268e6da1d639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '012b2ed672979b8b9dd65a9fa7213213') in 0.019383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Scene/Desert_Village/Lightmap-2_comp_light.exr
+  artifactKey: Guid(03de9b271c5f9514fb93d80673c039a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Scene/Desert_Village/Lightmap-2_comp_light.exr using Guid(03de9b271c5f9514fb93d80673c039a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd18c94444264ab31c48577bf4158aa4a') in 0.018576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Scene/Desert_Village/Lightmap-0_comp_dir.png
+  artifactKey: Guid(278548aa98c65a84e82f17c76ffd4536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Scene/Desert_Village/Lightmap-0_comp_dir.png using Guid(278548aa98c65a84e82f17c76ffd4536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf65f7033c177417ab5101d24212f9b') in 0.018726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Scene/Desert_Village/Lightmap-1_comp_light.exr
+  artifactKey: Guid(5fa9ae8c540fd3443b0f964bff4e4684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Scene/Desert_Village/Lightmap-1_comp_light.exr using Guid(5fa9ae8c540fd3443b0f964bff4e4684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3f293b09da8fedca283c3777b13e78') in 0.017315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Scene/Desert_Village/Lightmap-1_comp_dir.png
+  artifactKey: Guid(12d0843f93412564183050f369dee834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Scene/Desert_Village/Lightmap-1_comp_dir.png using Guid(12d0843f93412564183050f369dee834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80435463d233fe1d338ae5b8ac453557') in 0.019376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Scene/Desert_Village/Lightmap-2_comp_dir.png
+  artifactKey: Guid(192d621144419eb41ae9bb9fceb4fb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Scene/Desert_Village/Lightmap-2_comp_dir.png using Guid(192d621144419eb41ae9bb9fceb4fb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f058e8292ca64ec775b296f0c4a1fbb') in 0.019698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Scene/Desert_Village/Lightmap-6_comp_light.exr
+  artifactKey: Guid(bdba0aa08f8c95c4db6321b7805b6036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Scene/Desert_Village/Lightmap-6_comp_light.exr using Guid(bdba0aa08f8c95c4db6321b7805b6036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf611bf47e401357a98d85b36cb4a87') in 0.016708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Scene/Desert_Village/Lightmap-6_comp_dir.png
+  artifactKey: Guid(1b36b64d51e4a3a4f976b95333454f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Scene/Desert_Village/Lightmap-6_comp_dir.png using Guid(1b36b64d51e4a3a4f976b95333454f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d706ba2ba8b761da44c4ff041ef4f15') in 0.018945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Scene/Desert_Village/Lightmap-4_comp_dir.png
+  artifactKey: Guid(c80abc7b3db0e8f44b344f2fa0548c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Scene/Desert_Village/Lightmap-4_comp_dir.png using Guid(c80abc7b3db0e8f44b344f2fa0548c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '021b03e068a0d0eefc4f6582e66ed847') in 0.017735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Scene/Desert_Village/Lightmap-0_comp_light.exr
+  artifactKey: Guid(de23f04c34135d3439cae2a7e95a473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Scene/Desert_Village/Lightmap-0_comp_light.exr using Guid(de23f04c34135d3439cae2a7e95a473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0f85d6d16512d1392157e642f8dac8') in 0.018697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.177898 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Scene/Desert_Village.unity
+  artifactKey: Guid(b355ddf47ac85d74cbc7ddd0d7fba648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Scene/Desert_Village.unity using Guid(b355ddf47ac85d74cbc7ddd0d7fba648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbdb50f970b6625b39b5fa96af7aeea6') in 0.009036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.681306 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Meshes/Desert_Village_Bench.fbx
+  artifactKey: Guid(589c05391e5bebd4e843bca5d9c84a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Meshes/Desert_Village_Bench.fbx using Guid(589c05391e5bebd4e843bca5d9c84a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6b6e0e16be5aa19843e0b2cec1f7e02') in 0.193099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Meshes/Desert_Village_Desert.fbx
+  artifactKey: Guid(18488c270711a7445bc75721470cf3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Meshes/Desert_Village_Desert.fbx using Guid(18488c270711a7445bc75721470cf3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d046e9773d6e463f2bf76b6e33a00c') in 0.030048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Meshes/Desert_Village_House_3.fbx
+  artifactKey: Guid(feb0b2c230a9ce64a8d3864403493271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Meshes/Desert_Village_House_3.fbx using Guid(feb0b2c230a9ce64a8d3864403493271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11099a1971c59b136bb6fe702df92fa9') in 0.096203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Materials/M_Bucket_Water.mat
+  artifactKey: Guid(5b3d9723ae2af264a916601f766a3af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Materials/M_Bucket_Water.mat using Guid(5b3d9723ae2af264a916601f766a3af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd03383b6f78956b3a63cb1c05e2d82be') in 0.031344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Materials/M_Palm_Wood.mat
+  artifactKey: Guid(eb49341bc73e73744a69d5618d5935bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Materials/M_Palm_Wood.mat using Guid(eb49341bc73e73744a69d5618d5935bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a7284a398cf5f8bbcd22fbe1f74ec24') in 0.016576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Meshes/Desert_Village_Dryer.fbx
+  artifactKey: Guid(6c4d5d07bf347e84ead0616c95caba9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Meshes/Desert_Village_Dryer.fbx using Guid(6c4d5d07bf347e84ead0616c95caba9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a6f3e65ee86a0cfbbbb071725163596') in 0.054819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Materials/M_Towel_Blue.mat
+  artifactKey: Guid(f65781644af15764899ef5ac34d023ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Materials/M_Towel_Blue.mat using Guid(f65781644af15764899ef5ac34d023ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910ff2c4f019eca5be06ad9baf10ee1d') in 0.018900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Materials/M_Lamp_Emission.mat
+  artifactKey: Guid(fe2615a44fd66974daaa1aaf4ad787e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Materials/M_Lamp_Emission.mat using Guid(fe2615a44fd66974daaa1aaf4ad787e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd82806debeaa96baf512918a9975c691') in 0.026259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Materials/M_House_Wall_Out.mat
+  artifactKey: Guid(c7723ce6f37ea4542a08e60147b04617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Materials/M_House_Wall_Out.mat using Guid(c7723ce6f37ea4542a08e60147b04617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f2b6b5bf04391e5b3f96ace5225580b') in 0.020234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Meshes/Desert_Village_Tent_1.fbx
+  artifactKey: Guid(70f154671adeffe46bf3ecc2d3729788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Meshes/Desert_Village_Tent_1.fbx using Guid(70f154671adeffe46bf3ecc2d3729788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a788d8751c43d90ca28a17a0e76c0b78') in 0.046360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Meshes/Desert_Village_House_Lamp.fbx
+  artifactKey: Guid(90de6738a7d5d6445a7e8189e56d1083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Meshes/Desert_Village_House_Lamp.fbx using Guid(90de6738a7d5d6445a7e8189e56d1083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a6056084746cb4f7e358e79a0bd088') in 0.042894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Materials/M_House_Wood.mat
+  artifactKey: Guid(e2d5dcca8dda83644bdfff8aad886316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Materials/M_House_Wood.mat using Guid(e2d5dcca8dda83644bdfff8aad886316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a124cfe186f143de9ef1a305f38efa87') in 0.020896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Materials/M_Palm_Sheet.mat
+  artifactKey: Guid(c924344f433cc7a428830de05a981fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Materials/M_Palm_Sheet.mat using Guid(c924344f433cc7a428830de05a981fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02019ab36cbf19c13e01b024869099c2') in 0.019980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Materials/M_Towel_Green.mat
+  artifactKey: Guid(e2753d972a5c05b459b8f6960aa74f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Materials/M_Towel_Green.mat using Guid(e2753d972a5c05b459b8f6960aa74f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'def49829b84493138aafb473232c9ded') in 0.018621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Meshes/Desert_Village_Bucket.fbx
+  artifactKey: Guid(b58053af909ca22408b1f5b548446bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Meshes/Desert_Village_Bucket.fbx using Guid(b58053af909ca22408b1f5b548446bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9817af7b1ab4d74a4b41fd704ccd4efb') in 0.027338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Meshes/Desert_Village_House_2.fbx
+  artifactKey: Guid(1216099de1838824bbd4d4b016f12108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Meshes/Desert_Village_House_2.fbx using Guid(1216099de1838824bbd4d4b016f12108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dfb2e2dec5a2f99c2252143ff5ab7a1') in 0.131169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Meshes/Desert_Village_Fence_1.fbx
+  artifactKey: Guid(cdc55ac9a8d66064286544c13d5b3450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Meshes/Desert_Village_Fence_1.fbx using Guid(cdc55ac9a8d66064286544c13d5b3450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfba7191a61560de4b588ccd164f3533') in 0.067369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Materials/M_Towel_Yellow.mat
+  artifactKey: Guid(cfb7ec0465795eb4481b80fc8d535879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Materials/M_Towel_Yellow.mat using Guid(cfb7ec0465795eb4481b80fc8d535879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '083f735aa8c40a5df60a40c6324b08c3') in 0.019855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Meshes/Desert_Village_House_4.fbx
+  artifactKey: Guid(eb4463eea96e4a24296a8ff63d7ca6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Meshes/Desert_Village_House_4.fbx using Guid(eb4463eea96e4a24296a8ff63d7ca6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e82af24f531b4d46f446462d2cacc5d2') in 0.134386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Meshes/Desert_Village_House_1.fbx
+  artifactKey: Guid(ac1ff9b00c27a634e8e0aeafdf0ba6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Meshes/Desert_Village_House_1.fbx using Guid(ac1ff9b00c27a634e8e0aeafdf0ba6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3f7797a78a3fa1a297a604fca19c4a') in 0.140639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Meshes/Desert_Village_Threshold_Rock.fbx
+  artifactKey: Guid(13beb9e7ff1aa8b4aae7f03929a6d8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Meshes/Desert_Village_Threshold_Rock.fbx using Guid(13beb9e7ff1aa8b4aae7f03929a6d8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '783e64a72013ef9efafdb704e9cc0528') in 0.057395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Materials/M_Vase.mat
+  artifactKey: Guid(9586951ff1f08f14190d195079168ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Materials/M_Vase.mat using Guid(9586951ff1f08f14190d195079168ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24fc552be10b7ca8854706c6c71b4e31') in 0.020005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Meshes/Desert_Village_Palm_2.fbx
+  artifactKey: Guid(bd1cd74bc579fdc46aefe096deb98eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Meshes/Desert_Village_Palm_2.fbx using Guid(bd1cd74bc579fdc46aefe096deb98eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e574ce950c85a85ba74a44124c94f94') in 0.114851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Meshes/Desert_Village_Street_Lamp.fbx
+  artifactKey: Guid(c47f493343245194caf196ae6bdfe67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Meshes/Desert_Village_Street_Lamp.fbx using Guid(c47f493343245194caf196ae6bdfe67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9700d9b620c0f59e2b8365ee8ac91883') in 0.046977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Materials/M_Lamp_Base.mat
+  artifactKey: Guid(0dd06576413083c4c9c896b9b26ccf8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Materials/M_Lamp_Base.mat using Guid(0dd06576413083c4c9c896b9b26ccf8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ea45af07e39831020eb5d1069e39af') in 0.020241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Meshes/Desert_Village_Palm_1.fbx
+  artifactKey: Guid(bbcdd04da997456489cd85403a789493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Meshes/Desert_Village_Palm_1.fbx using Guid(bbcdd04da997456489cd85403a789493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1adca70a98cfcf25871c4be15ea0916b') in 0.121111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Meshes/Desert_Village_Fence_2.fbx
+  artifactKey: Guid(6f9e8f0069476f341a26dd54f867cb02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Meshes/Desert_Village_Fence_2.fbx using Guid(6f9e8f0069476f341a26dd54f867cb02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cabcc63836ce68780deab7768ff686a') in 0.024725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Materials/M_Towel_Red.mat
+  artifactKey: Guid(975832d61e1791d4d823e4bccc59ecbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Materials/M_Towel_Red.mat using Guid(975832d61e1791d4d823e4bccc59ecbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b69cc5fbd538a1ae5575b3647a181593') in 0.017802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.318810 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_Bench (1).prefab
+  artifactKey: Guid(ae3c14b96abd09d42a0616d9bf768053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_Bench (1).prefab using Guid(ae3c14b96abd09d42a0616d9bf768053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c47c4598b12cd95d4961320cd5d208') in 0.019656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_House_4.prefab
+  artifactKey: Guid(d800a4f4583b26248a0986838df623c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_House_4.prefab using Guid(d800a4f4583b26248a0986838df623c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d749dab223218dd223e3511ee958c1b') in 0.022550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_Street_Lamp.prefab
+  artifactKey: Guid(e838bc811ff46e34f947bf686a965c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_Street_Lamp.prefab using Guid(e838bc811ff46e34f947bf686a965c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f721992768f4dfb830b75f0688dad31e') in 0.018632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_House_3.prefab
+  artifactKey: Guid(0faca65c8f14644408f4114d41941bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_House_3.prefab using Guid(0faca65c8f14644408f4114d41941bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ffa03488440c9dae70aad0a69ec8ac0') in 0.019610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_Palm_2.prefab
+  artifactKey: Guid(f94f1afb3f828eb438a87f71c51b2516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_Palm_2.prefab using Guid(f94f1afb3f828eb438a87f71c51b2516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bbaa71bce50dd3f3d523ee5e1bbb67c') in 0.020235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_Palm_1.prefab
+  artifactKey: Guid(63e0a48ed294278458fa101f87f50a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_Palm_1.prefab using Guid(63e0a48ed294278458fa101f87f50a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3624810d3196424dc0ec3a8eba9cd388') in 0.017762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_Tent_1.prefab
+  artifactKey: Guid(967076be8d94f0647982242fac0166e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_Tent_1.prefab using Guid(967076be8d94f0647982242fac0166e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bca0f2e449519027f4118ec4598a420') in 0.018562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_Bucket.prefab
+  artifactKey: Guid(5e22c709abb2c1d45ad476ea4b03de35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_Bucket.prefab using Guid(5e22c709abb2c1d45ad476ea4b03de35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '304cada35c8a79800604835c717bb0b6') in 0.019501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_Dryer.prefab
+  artifactKey: Guid(9c2a2d2b74e6f124a968dc5c9089af1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_Dryer.prefab using Guid(9c2a2d2b74e6f124a968dc5c9089af1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '708b8d102ba91062c541316423b6a3fc') in 0.020404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_House_1.prefab
+  artifactKey: Guid(b7d5a31e2b3908746b39720151582136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_House_1.prefab using Guid(b7d5a31e2b3908746b39720151582136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0456b20532fbd03ee273d4d0a7d4e5e4') in 0.019914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_Fence_Full.prefab
+  artifactKey: Guid(d67be1cf908c827449ae4369c4919dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_Fence_Full.prefab using Guid(d67be1cf908c827449ae4369c4919dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcaf3c51cd2297753153d9d47c5dff93') in 0.019370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_Desert.prefab
+  artifactKey: Guid(01fe0c353c6dfb947b34071429662c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_Desert.prefab using Guid(01fe0c353c6dfb947b34071429662c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e460bd42703b5a177c95407a8efb12') in 0.017373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_House_Lamp.prefab
+  artifactKey: Guid(0f2e7b5cff628ea42ac22c632b2d19e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_House_Lamp.prefab using Guid(0f2e7b5cff628ea42ac22c632b2d19e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78bc81a339287832baba4bbb8d44a470') in 0.018414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_House_2.prefab
+  artifactKey: Guid(41435389b060aac45929f968c7e64a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_House_2.prefab using Guid(41435389b060aac45929f968c7e64a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b321b3b85e56a20b0230b0f5e62213') in 0.019831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_Threshold_Rock.prefab
+  artifactKey: Guid(07b9db8a4c5b12449b9ee8e9fbccd558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_Threshold_Rock.prefab using Guid(07b9db8a4c5b12449b9ee8e9fbccd558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72165ddf43c3983d27071bb2f7aa4ff9') in 0.018515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.219367 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '396012cd0bac6cff04eaa1532e0b16e9') in 0.009868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.128678 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Props
+  artifactKey: Guid(4c9fabe8178aee641a807be7a3078331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Props using Guid(4c9fabe8178aee641a807be7a3078331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d1b408e17f94b87b86f3b36676aa2f') in 0.010358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.048302 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Props/banner.FBX
+  artifactKey: Guid(653a77d8711adf3429a390ba25ee55c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Props/banner.FBX using Guid(653a77d8711adf3429a390ba25ee55c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b9d888be3755303e03c8afbd2f273b') in 0.037146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Props/port_wooden_bridge_a_short.FBX
+  artifactKey: Guid(cf9fcbc355b79ae47bc70dbad233c243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Props/port_wooden_bridge_a_short.FBX using Guid(cf9fcbc355b79ae47bc70dbad233c243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '112c4bb39c0b6ffb59e72aaa1238d726') in 0.037187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Props/barrel.FBX
+  artifactKey: Guid(b899b109968a14f4797d7cd111cb647b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Props/barrel.FBX using Guid(b899b109968a14f4797d7cd111cb647b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f447ea5d43849231573573fe66e4c41') in 0.029271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Props/boat_03.FBX
+  artifactKey: Guid(1fc714e0ee6763a43b1700e624f9a488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Props/boat_03.FBX using Guid(1fc714e0ee6763a43b1700e624f9a488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f02cab5af6a5982638f8440df453c390') in 0.030902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Props/fence_stick.FBX
+  artifactKey: Guid(06c930f4f9d4ea643883e730c38c530b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Props/fence_stick.FBX using Guid(06c930f4f9d4ea643883e730c38c530b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c994a236e9caf2bb303b836fa61090f') in 0.034566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Props/port_wooden_bridge_b.FBX
+  artifactKey: Guid(77758a36f9effc64aa9052cd6edca9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Props/port_wooden_bridge_b.FBX using Guid(77758a36f9effc64aa9052cd6edca9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25bbea12828e15c719fb327a2efb4805') in 0.034333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Props/box.FBX
+  artifactKey: Guid(1bcb7811de1531641a7547be7bf01fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Props/box.FBX using Guid(1bcb7811de1531641a7547be7bf01fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46233b728baeb99b570bcb28e8e9f6be') in 0.030596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Props/port_chains.FBX
+  artifactKey: Guid(d7015dfb7e24ecb49a280f256db02a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Props/port_chains.FBX using Guid(d7015dfb7e24ecb49a280f256db02a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '998d9672b7743fc4c01e9b5c466e6ba3') in 0.039523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Props/barrel_group.FBX
+  artifactKey: Guid(a1431ac88ba4b0f4c861c48cee75e9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Props/barrel_group.FBX using Guid(a1431ac88ba4b0f4c861c48cee75e9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99057824d1b29c80c56f6d2752a728ee') in 0.031016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000504 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Props/boat_01.FBX
+  artifactKey: Guid(f01c51099a9686f4a9405d4e7e5cb26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Props/boat_01.FBX using Guid(f01c51099a9686f4a9405d4e7e5cb26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad79375657c9bdbd1830bb651d9c57fb') in 0.034386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Props/fence.FBX
+  artifactKey: Guid(25e83317ecd131f4cb6e236d365393ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Props/fence.FBX using Guid(25e83317ecd131f4cb6e236d365393ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff3810752914889eda1bc90954466f5b') in 0.027137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Props/port_wooden_bridge_a_corner.FBX
+  artifactKey: Guid(a8793ae45efd71545b54e3c7612887bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Props/port_wooden_bridge_a_corner.FBX using Guid(a8793ae45efd71545b54e3c7612887bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6baae628765fb0b92e0a7209316f5d66') in 0.033085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Props/fire_cage.FBX
+  artifactKey: Guid(d35b39c89d21c8445b096b8317580776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Props/fire_cage.FBX using Guid(d35b39c89d21c8445b096b8317580776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f0f76d18ff6101ca25646162175e1b') in 0.026828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Props/fountain_a.FBX
+  artifactKey: Guid(e23e514ed6a52a64184507a15e7f6a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Props/fountain_a.FBX using Guid(e23e514ed6a52a64184507a15e7f6a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb85791f530297ca84cd909aa5493f9') in 0.039478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Props/street_green_belt_a.FBX
+  artifactKey: Guid(6d884cae9cbeae345939b4f744556a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Props/street_green_belt_a.FBX using Guid(6d884cae9cbeae345939b4f744556a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f16277034b56b66bfa7b821bfdaa1991') in 0.037318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Props/fountain_b.FBX
+  artifactKey: Guid(80c58763d3b065b48924f320debf9ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Props/fountain_b.FBX using Guid(80c58763d3b065b48924f320debf9ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a5620bd583ad5d4371b60ba035e831') in 0.028502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Props/port_wooden_bridge_a.FBX
+  artifactKey: Guid(5150fe3dc2d993a4bb7146d51238b1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Props/port_wooden_bridge_a.FBX using Guid(5150fe3dc2d993a4bb7146d51238b1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c64d11a8f9d28258180ee1fc50a825c') in 0.038768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Props/boat_02.FBX
+  artifactKey: Guid(9b3f216a7f371474eab056058feb31bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Props/boat_02.FBX using Guid(9b3f216a7f371474eab056058feb31bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8697ce6eeea4238315ef8f2399bb578') in 0.026155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Props/port_wooden_bridge_b_stairs.FBX
+  artifactKey: Guid(7b9d4603340e77c419de7ae56d9762a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Props/port_wooden_bridge_b_stairs.FBX using Guid(7b9d4603340e77c419de7ae56d9762a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '292c8feda952d840d9c1acc14ea607a3') in 0.036258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Props/street_oil_light.FBX
+  artifactKey: Guid(47cdb03718b7455499aa6692ceba2a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Props/street_oil_light.FBX using Guid(47cdb03718b7455499aa6692ceba2a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153fd585d69e99dc14ce550f1ce44bc1') in 0.033752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.675327 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Props/street_pond_a.FBX
+  artifactKey: Guid(aca438496f8c96549aa10e232cbf3817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Props/street_pond_a.FBX using Guid(aca438496f8c96549aa10e232cbf3817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a73e258781534ecad8a84bd1469c44fb') in 0.035057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Props/tent_c.FBX
+  artifactKey: Guid(da3ee31277576ae49a6692778aa8e876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Props/tent_c.FBX using Guid(da3ee31277576ae49a6692778aa8e876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb8f88aaa9d048b3d4497fe226180a4a') in 0.029488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Props/tent_a.FBX
+  artifactKey: Guid(016522b72fe06e74d9c16f56d6a43cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Props/tent_a.FBX using Guid(016522b72fe06e74d9c16f56d6a43cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e476669f5de72e81e45b65060764b72') in 0.028234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Props/tent_b.FBX
+  artifactKey: Guid(f54bdb463f46eee4bb8cb513069cd0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Props/tent_b.FBX using Guid(f54bdb463f46eee4bb8cb513069cd0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce54f18ae1210b909ae79e67753f58cc') in 0.035397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.177688 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Props/wagon.FBX
+  artifactKey: Guid(14fd752655d1d074ba42478218b58227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Props/wagon.FBX using Guid(14fd752655d1d074ba42478218b58227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53fc1bfe98209d7a33a70402d4d2b211') in 0.030465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Props/well.FBX
+  artifactKey: Guid(cd246b39aa3137347b2e8233b8a7adf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Props/well.FBX using Guid(cd246b39aa3137347b2e8233b8a7adf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8944af104b86b573d379078701ca90f7') in 0.034938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.637249 seconds.
+  path: Assets/Polylised - Medieval Desert City/Demo/Assets_Layout.unity
+  artifactKey: Guid(824de8b955d7c5c41b442bf3f35398c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Demo/Assets_Layout.unity using Guid(824de8b955d7c5c41b442bf3f35398c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8deaa1cd5eb1c4b50cb55d46d8d24a90') in 0.009411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.055657 seconds.
+  path: Assets/Polylised - Medieval Desert City/Demo/Demo_01.unity
+  artifactKey: Guid(6c9792811fb08fb4882e17eb56f4bb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Demo/Demo_01.unity using Guid(6c9792811fb08fb4882e17eb56f4bb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8c263b409cf7b232edc7435a4c60ab') in 0.010523 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006079 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.782 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1783ms)
+		BeginReloadAssembly (210ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (1431ms)
+			LoadAssemblies (184ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (467ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (524ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (370ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3067 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 159.2 MB.
+System memory in use after: 159.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3890.
+Total: 5.336500 ms (FindLiveObjects: 0.410100 ms CreateObjectMapping: 0.107000 ms MarkObjects: 4.782600 ms  DeleteObjects: 0.034900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 591.151758 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Materials/M_House_Wood.mat
+  artifactKey: Guid(e2d5dcca8dda83644bdfff8aad886316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Materials/M_House_Wood.mat using Guid(e2d5dcca8dda83644bdfff8aad886316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '786ab9ccf43e530586740b4769c15899') in 0.251075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 117.899463 seconds.
+  path: Assets/Greek Statue/GreekStatue.prefab
+  artifactKey: Guid(c58829182f121f24aa5317a22823ca57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Greek Statue/GreekStatue.prefab using Guid(c58829182f121f24aa5317a22823ca57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'befd588286734f7163706b591dbcdc7a') in 0.061851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.183221 seconds.
+  path: Assets/Greek Statue/Materials
+  artifactKey: Guid(39aa0c193340174439a4276e90af01b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Greek Statue/Materials using Guid(39aa0c193340174439a4276e90af01b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51281e6fc858a516ac29f7157d2e216f') in 0.007935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.042952 seconds.
+  path: Assets/Greek Statue/Materials/GreekStatue_LOD0.mat
+  artifactKey: Guid(ab0dd7891947e1549bee08bafe1661cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Greek Statue/Materials/GreekStatue_LOD0.mat using Guid(ab0dd7891947e1549bee08bafe1661cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd68df3a01ec3fa3831309094df71888') in 0.025048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Greek Statue/Materials/GreekStatue_LOD1.png
+  artifactKey: Guid(9e0feefc28cdbc543aba2d99a1879201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Greek Statue/Materials/GreekStatue_LOD1.png using Guid(9e0feefc28cdbc543aba2d99a1879201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3c1d97a9592dfd5257f36203e2f396') in 0.024296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Greek Statue/Materials/GreekStatue_LOD1.mat
+  artifactKey: Guid(14a09e292b2649b48b358764d42138a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Greek Statue/Materials/GreekStatue_LOD1.mat using Guid(14a09e292b2649b48b358764d42138a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '656e87ada4b940dca7abfde7acb2c5b3') in 0.021564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Greek Statue/Materials/GreekStatue_LOD1_Normal.png
+  artifactKey: Guid(cb048c2a7a326a0469f0306393b22578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Greek Statue/Materials/GreekStatue_LOD1_Normal.png using Guid(cb048c2a7a326a0469f0306393b22578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239f19f3093818803f366dbc7f240d3b') in 0.021060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Greek Statue/Materials/GreekStatue_LOD0_Normal.png
+  artifactKey: Guid(2242b62ceeed3d34a96923ad5009b77e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Greek Statue/Materials/GreekStatue_LOD0_Normal.png using Guid(2242b62ceeed3d34a96923ad5009b77e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f19ba7427b281efc78529e366caa5f0') in 0.020793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Greek Statue/Materials/GreekStatue_LOD0.png
+  artifactKey: Guid(f02f7e8caa994dd49a9c187a7f18059b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Greek Statue/Materials/GreekStatue_LOD0.png using Guid(f02f7e8caa994dd49a9c187a7f18059b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e073c89c2dcd9570b371ee60990b412e') in 0.020710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 205.718538 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Models/Signs_pylon_tinajon_street lamps/Materials/signs.mat
+  artifactKey: Guid(42be1ae37d25f2f44a7feec3137f368e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Models/Signs_pylon_tinajon_street lamps/Materials/signs.mat using Guid(42be1ae37d25f2f44a7feec3137f368e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e09305734eb24b8434fb58864b9354') in 0.038602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.112005 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Civilian_Buildings/Materials/Roof_3.mat
+  artifactKey: Guid(7ce693547ae759e4c95ee9c785e97232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Civilian_Buildings/Materials/Roof_3.mat using Guid(7ce693547ae759e4c95ee9c785e97232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eda0db9e1502500bde6f6516d131c32a') in 0.021459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Props/Materials/Rope_0.mat
+  artifactKey: Guid(312e8c9d96c215148b29f696d927396e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Props/Materials/Rope_0.mat using Guid(312e8c9d96c215148b29f696d927396e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '876ac80702be3d2f4d8b2f18c32e70fb') in 0.020484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Props/Materials/Roof_3.mat
+  artifactKey: Guid(b9120ae9a3ef11a4c99f139f86ed7b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Props/Materials/Roof_3.mat using Guid(b9120ae9a3ef11a4c99f139f86ed7b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e3198ef21ff13f59a4f093a0042fbe2') in 0.023983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Civilian_Buildings/Materials/Rope_0.mat
+  artifactKey: Guid(79cb73a5095332d418ed29b096788715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Civilian_Buildings/Materials/Rope_0.mat using Guid(79cb73a5095332d418ed29b096788715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b14d4c6302db51499b2069d9ffae2248') in 0.018055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.667535 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Civilian_Buildings/Materials/Roof_2.mat
+  artifactKey: Guid(86a87aefd89d39f48b3caafb4347b922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Civilian_Buildings/Materials/Roof_2.mat using Guid(86a87aefd89d39f48b3caafb4347b922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d56fbb45dbaafd6d2184f31153b04ac') in 0.026739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.393049 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Materials/Graveyard/Graveyard_Walls.mat
+  artifactKey: Guid(114cf8a829e58dd40afe2d0c0e0a758b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Materials/Graveyard/Graveyard_Walls.mat using Guid(114cf8a829e58dd40afe2d0c0e0a758b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802fab98cb6ab6004f0d717622b4324f') in 0.031900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.461473 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Materials/Graveyard/Graves.mat
+  artifactKey: Guid(1e3fe5dcd512d8541a847d4fa1bb5560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Materials/Graveyard/Graves.mat using Guid(1e3fe5dcd512d8541a847d4fa1bb5560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b5e55996d2a2e46d9d90a48f083ab12') in 0.030292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Materials/Graveyard/Graveyard_Ground.mat
+  artifactKey: Guid(0d62c74ab0322784681e293ae89ea53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Materials/Graveyard/Graveyard_Ground.mat using Guid(0d62c74ab0322784681e293ae89ea53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd79d00b0be7929d3a1f85643d358450') in 0.030660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Materials/Graveyard/Graveyard_Sidewalk.mat
+  artifactKey: Guid(1e20882ab504010488cc22a392b2ef34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Materials/Graveyard/Graveyard_Sidewalk.mat using Guid(1e20882ab504010488cc22a392b2ef34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b4221e9998c382aa4fc2430a4444a9') in 0.030669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.549914 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Materials/Graveyard/Church_Back.mat
+  artifactKey: Guid(7c3d0491891423f4b81babfacbd6305f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Materials/Graveyard/Church_Back.mat using Guid(7c3d0491891423f4b81babfacbd6305f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e23647e9fa19d9f835f69036f2d3d1') in 0.033602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Materials/Graveyard/Church_From.mat
+  artifactKey: Guid(cf7fafc6cc17c0045abfa02be7425da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Materials/Graveyard/Church_From.mat using Guid(cf7fafc6cc17c0045abfa02be7425da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d704e1f72115c36dddf241f6ea70ad') in 0.030228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 198.379026 seconds.
+  path: Assets/Textures/darkstucco.jpg
+  artifactKey: Guid(95799cf1c7b8a304da23145aba30bd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/darkstucco.jpg using Guid(95799cf1c7b8a304da23145aba30bd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aedbe5c49ac21377bd22da736c19ea2e') in 0.022619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.161092 seconds.
+  path: Assets/Shaders/DarkStucco.shadergraph
+  artifactKey: Guid(312457e8282993b449f26129aed64713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/DarkStucco.shadergraph using Guid(312457e8282993b449f26129aed64713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '451dffafe136fbdd277b584b3991c97b') in 0.010609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.497268 seconds.
+  path: Assets/Materials/DarkStucco.mat
+  artifactKey: Guid(8dc81f5b06edc2040a97556fe64bd274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/DarkStucco.mat using Guid(8dc81f5b06edc2040a97556fe64bd274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '597c92b3422ccc798dbcd35eeca6e161') in 0.022453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 94.667885 seconds.
+  path: Assets/Shaders/DarkStucco.shadergraph
+  artifactKey: Guid(312457e8282993b449f26129aed64713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/DarkStucco.shadergraph using Guid(312457e8282993b449f26129aed64713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4285b207872b346b56eea6470a976383') in 0.010204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.369910 seconds.
+  path: Assets/Shaders/DarkStucco 1.shadergraph
+  artifactKey: Guid(cbdd07886b720ad49827a4f52e23df58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/DarkStucco 1.shadergraph using Guid(cbdd07886b720ad49827a4f52e23df58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b38e5a235f3d78c4d049306d0b414edd') in 0.015084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.099174 seconds.
+  path: Assets/Materials/DarkStucco.mat
+  artifactKey: Guid(8dc81f5b06edc2040a97556fe64bd274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/DarkStucco.mat using Guid(8dc81f5b06edc2040a97556fe64bd274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f251eaa53a4185138fd9d1a1e912bd') in 0.037262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Materials/Stone3.mat
+  artifactKey: Guid(f5a9620fd5049c94fa95106812db2cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stone3.mat using Guid(f5a9620fd5049c94fa95106812db2cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e2512ecc48a16064c6ae4dfdf37465a') in 0.036760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Materials/Stone.mat
+  artifactKey: Guid(dd31b2d03bbee0943baa4a288f71f1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stone.mat using Guid(dd31b2d03bbee0943baa4a288f71f1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8343bfc8826d2a9352d560cbab7cd5') in 0.028454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.672457 seconds.
+  path: Assets/Materials/DarkStucco 1.mat
+  artifactKey: Guid(5aa7b3ecf7d5b374687416124d98600c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/DarkStucco 1.mat using Guid(5aa7b3ecf7d5b374687416124d98600c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b75accfe235b5ac5c204b4497364ed79') in 0.020006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.309414 seconds.
+  path: Assets/Textures/darkstucco1.jpg
+  artifactKey: Guid(f9ea035e669424048a49279d1873f9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/darkstucco1.jpg using Guid(f9ea035e669424048a49279d1873f9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74774948bf3e13b42efbeabbe6dc8626') in 0.015133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.077918 seconds.
+  path: Assets/Shaders/DarkStucco 1.shadergraph
+  artifactKey: Guid(cbdd07886b720ad49827a4f52e23df58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/DarkStucco 1.shadergraph using Guid(cbdd07886b720ad49827a4f52e23df58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dac60ad33755478ba5fb7f08dc91958') in 0.006068 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012152 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.304 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2308ms)
+		BeginReloadAssembly (448ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (55ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (202ms)
+		EndReloadAssembly (1743ms)
+			LoadAssemblies (211ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (534ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (631ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (131ms)
+				ProcessInitializeOnLoadAttributes (440ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (38ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3068 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.4 MB.
+System memory in use after: 160.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3932.
+Total: 5.795100 ms (FindLiveObjects: 0.405800 ms CreateObjectMapping: 0.111400 ms MarkObjects: 5.228700 ms  DeleteObjects: 0.047700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
