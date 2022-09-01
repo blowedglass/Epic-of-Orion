@@ -21,8 +21,8 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 707, y: 392}
-  m_MaxSize: {x: 18002, y: 14042}
+  m_MinSize: {x: 709, y: 392}
+  m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
   controlID: -1
 --- !u!114 &2
@@ -135,8 +135,8 @@ MonoBehaviour:
     y: 0
     width: 1640
     height: 947
-  m_MinSize: {x: 432, y: 392}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 433, y: 392}
+  m_MaxSize: {x: 14003, y: 14042}
   vertical: 1
   controlID: -1
 --- !u!114 &4
@@ -208,9 +208,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 541.9539, y: -14.711792, z: 573.42993}
+    m_Target: {x: 604.48975, y: 0.270514, z: 761.1229}
     speed: 2
-    m_Value: {x: 541.9539, y: -14.711792, z: 573.42993}
+    m_Value: {x: 604.48975, y: 0.270514, z: 761.1229}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -257,26 +257,26 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.017862285, y: 0.9635315, z: -0.06690785, w: -0.25872484}
+    m_Target: {x: -0.056574244, y: 0.91427666, z: -0.1386587, w: -0.3767164}
     speed: 2
-    m_Value: {x: -0.01786115, y: 0.9634703, z: -0.0669036, w: -0.2587084}
+    m_Value: {x: -0.056567345, y: 0.9141652, z: -0.13864179, w: -0.37667048}
   m_Size:
-    m_Target: 61.27873
+    m_Target: 10.945823
     speed: 2
-    m_Value: 61.27873
+    m_Value: 10.945823
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 0.001
-    m_SpeedNormalized: 0
+    m_Speed: 0.84058
+    m_SpeedNormalized: 0.42
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
     m_EasingDuration: 0.4
     m_AccelerationEnabled: 1
-    m_FieldOfViewHorizontalOrVertical: 60
+    m_FieldOfViewHorizontalOrVertical: 76
     m_NearClip: 0.03
     m_FarClip: 10000
     m_DynamicClip: 1
@@ -1951,10 +1951,10 @@ MonoBehaviour:
     y: 645
     width: 1640
     height: 302
-  m_MinSize: {x: 432, y: 271}
-  m_MaxSize: {x: 14002, y: 10021}
+  m_MinSize: {x: 433, y: 271}
+  m_MaxSize: {x: 14003, y: 10021}
   vertical: 0
-  controlID: 2650
+  controlID: 62369
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1974,8 +1974,8 @@ MonoBehaviour:
     y: 0
     width: 1101
     height: 302
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 14}
@@ -2035,10 +2035,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ce520000
-      m_LastClickedID: 21198
-      m_ExpandedIDs: 6afbffff
+      scrollPos: {x: 0, y: 64}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: ae43ffff6afbffff6c4e000076500000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -2987,22 +2987,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Textures
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 41
   m_LastFolders:
-  - Assets
+  - Assets/Textures
   m_LastFoldersGridSize: 41
-  m_LastProjectPath: C:\Users\theno\Desktop\TownDefender
+  m_LastProjectPath: C:\Users\theno\Desktop\Epic-of-Orion\TownDefender
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 76640000
-    m_LastClickedID: 25718
-    m_ExpandedIDs: 0000000076640000786400007a6400007c6400007e64000000ca9a3b
+    scrollPos: {x: 0, y: 255}
+    m_SelectedIDs: e8640000
+    m_LastClickedID: 25832
+    m_ExpandedIDs: 000000008e6400009064000092640000946400009664000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3030,7 +3030,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000076640000786400007a6400007c6400007e64000000ca9a3b
+    m_ExpandedIDs: 000000008e6400009064000092640000946400009664000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3055,8 +3055,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: ce520000
-    m_LastClickedInstanceID: 21198
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000303f000046760000005e0000e85c0000b6450000984500004e140000c69000000000000088270200
     m_RenameOverlay:
@@ -3082,7 +3082,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 487}
+    m_ScrollPosition: {x: 0, y: 418.5}
     m_GridSize: 41
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 246
