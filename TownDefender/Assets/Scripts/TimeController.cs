@@ -8,45 +8,34 @@ public class TimeController : MonoBehaviour
 {
     [SerializeField]
     private float timeMultiplier;
-
     [SerializeField]
     private float startHour;
-
     [SerializeField]
     private TextMeshProUGUI timeText;
-
     [SerializeField]
     private Light sunLight;
-
     [SerializeField]
     private float sunriseHour;
-
     [SerializeField]
     private float sunsetHour;
-
     [SerializeField]
     private Color dayAmbientLight;
-
     [SerializeField]
     private Color nightAmbientLight;
-
     [SerializeField]
     private AnimationCurve lightChangeCurve;
-
     [SerializeField]
     private float maxSunLightIntensity;
-
     [SerializeField]
     private Light moonLight;
-
     [SerializeField]
     private float maxMoonLightIntensity;
 
     private DateTime currentTime;
-
     private TimeSpan sunriseTime;
-
     private TimeSpan sunsetTime;
+
+    public float speedanonymousmultiplier;
 
     // Start is called before the first frame update
     void Start()
@@ -63,6 +52,7 @@ public class TimeController : MonoBehaviour
         UpdateTimeOfDay();
         RotateSun();
         UpdateLightSettings();
+        //RenderSettings.skybox.SetFloat("_Rotation", Time.time * speedanonymousmultiplier);
     }
 
     private void UpdateTimeOfDay()
