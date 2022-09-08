@@ -29180,7 +29180,7 @@ MonoBehaviour:
   jumpHeight: 11.56
   fallMultiplier: 2.5
   lowJumpMult: 2
-  sprintSpeed: 30
+  sprintSpeed: 10
   isAttacking: 0
 --- !u!114 &2112977035
 MonoBehaviour:
