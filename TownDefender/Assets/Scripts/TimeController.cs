@@ -36,6 +36,10 @@ public class TimeController : MonoBehaviour
     private TimeSpan sunsetTime;
 
     public float speedanonymousmultiplier;
+    public Material[] skyboxes;
+    public Material skyboxmaterial;
+
+    public float timealt;
 
     // Start is called before the first frame update
     void Start()
@@ -44,15 +48,35 @@ public class TimeController : MonoBehaviour
 
         sunriseTime = TimeSpan.FromHours(sunriseHour);
         sunsetTime = TimeSpan.FromHours(sunsetHour);
+
     }
 
     // Update is called once per frame
     void Update()
     {
+        ModulusLerp();
         UpdateTimeOfDay();
         RotateSun();
         UpdateLightSettings();
         //RenderSettings.skybox.SetFloat("_Rotation", Time.time * speedanonymousmultiplier);
+        
+    }
+
+    private void ModulusLerp()
+    {
+        timealt = 0;
+        if (timealt < 1)
+        {
+            timealt++;
+        }
+        else
+        {
+            while (timealt > 0)
+            {
+                timealt--;
+            }
+        }
+        return;
     }
 
     private void UpdateTimeOfDay()
@@ -69,6 +93,8 @@ public class TimeController : MonoBehaviour
     {
         float sunLightRotation;
 
+
+        //daytime <<<<<<--------------
         if (currentTime.TimeOfDay > sunriseTime && currentTime.TimeOfDay < sunsetTime)
         {
             TimeSpan sunriseToSunsetDuration = CalculateTimeDifference(sunriseTime, sunsetTime);
@@ -77,6 +103,10 @@ public class TimeController : MonoBehaviour
             double percentage = timeSinceSunrise.TotalMinutes / sunriseToSunsetDuration.TotalMinutes;
 
             sunLightRotation = Mathf.Lerp(0, 180, (float)percentage);
+
+            //RenderSettings.skybox.Lerp(skyboxes[0], skyboxes[1], .0001f);
+            skyboxmaterial.SetFloat("_Blend", Mathf.PingPong((Time.time * .08f), 1));
+            DynamicGI.UpdateEnvironment();
         }
         else
         {
@@ -86,7 +116,10 @@ public class TimeController : MonoBehaviour
             double percentage = timeSinceSunset.TotalMinutes / sunsetToSunriseDuration.TotalMinutes;
 
             sunLightRotation = Mathf.Lerp(180, 360, (float)percentage);
+
+           
         }
+        //nighttime <<<<<<--------------
 
         sunLight.transform.rotation = Quaternion.AngleAxis(sunLightRotation, Vector3.right);
     }
@@ -110,4 +143,10 @@ public class TimeController : MonoBehaviour
 
         return difference;
     }
+
+    
+
+
 }
+
+        
